@@ -1,0 +1,12 @@
+---
+export interface Props {
+	title: string;
+}
+
+const {title} = Astro.props as Props
+---
+
+<footer>
+    <h1>{title}</h1>
+    <p>my footer</p>
+</footer>
